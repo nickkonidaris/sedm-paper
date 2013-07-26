@@ -1,0 +1,9 @@
+# Region file format: DS9 version 4.1
+# Filename: ifu20130622_16_13_20.fits
+global color=green dashlist=8 3 width=1 font="helvetica 10 normal roman" select=1 highlite=1 dash=0 fixed=0 edit=1 move=1 delete=1 include=1 source=1
+physical
+circle(873.25,1026.25,5) # color=black text={579,577}
+circle(887,1026.75,5) # color=black text={546}
+circle(946.75,1028,5) # color=black text={435}
+circle(967.75,1028,5) # color=black text={406,405,404}
+line(892.75,1004,864.25,1004) # line=0 0 color=black text={IR leakage}

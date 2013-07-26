@@ -1,0 +1,18 @@
+#   1 NUMBER                 Running object number                                     
+#   2 X_IMAGE                Object position along x                                    [pixel]
+#   3 Y_IMAGE                Object position along y                                    [pixel]
+#   4 ALPHA_J2000            Right ascension of barycenter (J2000)                      [deg]
+#   5 DELTA_J2000            Declination of barycenter (J2000)                          [deg]
+#   6 FWHM_IMAGE             FWHM assuming a gaussian core                              [pixel]
+#   7 FWHM_WORLD             FWHM assuming a gaussian core                              [deg]
+#   8 MAG_BEST               Best of MAG_AUTO and MAG_ISOCOR                            [mag]
+#   9 MAG_APER               Fixed aperture magnitude vector                            [mag]
+#  10 MAGERR_APER            RMS error vector for fixed aperture mag.                   [mag]
+#  11 FLUX_APER              Flux vector within fixed circular aperture(s)              [count]
+#  12 FLUXERR_APER           RMS error vector for aperture flux(es)                     [count]
+#  13 BACKGROUND             Background at centroid position                            [count]
+#  14 ELLIPTICITY            1 - B_IMAGE/A_IMAGE                                       
+#  15 FLAGS                  Extraction flags                                          
+         1    942.021    401.392 237.8758949 +33.0098362     6.51 0.0006972196 -12.6583 -12.6931   0.0039     119470.1     427.4353     641.2811    0.098   0
+         2    158.203    826.794 237.9758136 +32.9623648    36.09   0.00386599 -12.9795 -11.1290   0.0142     28288.23     370.3589     642.9993    0.423   2
+         3     71.190    767.027 237.9870668 +32.9684988    44.97  0.004817811 -12.8440 -11.1409   0.0141     28600.79     370.4946     636.7999    0.623  18

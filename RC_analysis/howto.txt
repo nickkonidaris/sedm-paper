@@ -1,0 +1,8 @@
+ramekin% cd /scr2/npk/outs
+                /scr2/npk/outs
+ramekin% cut -c60-66 rc*_r.txt > seeing_r.txt
+
+ramekin% cut -c60-66 rc*_r.txt > seeing_r.txt
+ramekin% cut -c60-66 rc*_i.txt > seeing_i.txt
+ramekin% cut -c60-66 rc*_g.txt > seeing_g.txt
+ramekin% cut -c60-66 rc*_u.txt > seeing_u.txt

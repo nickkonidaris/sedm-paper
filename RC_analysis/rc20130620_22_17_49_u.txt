@@ -1,0 +1,21 @@
+#   1 NUMBER                 Running object number                                     
+#   2 X_IMAGE                Object position along x                                    [pixel]
+#   3 Y_IMAGE                Object position along y                                    [pixel]
+#   4 ALPHA_J2000            Right ascension of barycenter (J2000)                      [deg]
+#   5 DELTA_J2000            Declination of barycenter (J2000)                          [deg]
+#   6 FWHM_IMAGE             FWHM assuming a gaussian core                              [pixel]
+#   7 FWHM_WORLD             FWHM assuming a gaussian core                              [deg]
+#   8 MAG_BEST               Best of MAG_AUTO and MAG_ISOCOR                            [mag]
+#   9 MAG_APER               Fixed aperture magnitude vector                            [mag]
+#  10 MAGERR_APER            RMS error vector for fixed aperture mag.                   [mag]
+#  11 FLUX_APER              Flux vector within fixed circular aperture(s)              [count]
+#  12 FLUXERR_APER           RMS error vector for aperture flux(es)                     [count]
+#  13 BACKGROUND             Background at centroid position                            [count]
+#  14 ELLIPTICITY            1 - B_IMAGE/A_IMAGE                                       
+#  15 FLAGS                  Extraction flags                                          
+         1    617.885    213.237 200.8130712 +36.2130574     2.31  0.000249533  -7.6137  -7.5636   0.3137     1060.307     306.2888     602.1524    0.189   0
+         2    317.571    348.704 200.8530831 +36.1976327     6.42 0.0006932197  -8.7509  -7.9115   0.2279     1460.829     306.6242     612.2839    0.216   0
+         3    119.563    597.875 200.8791320 +36.1702430     4.72  0.000509933 -10.0609 -10.0789   0.0317     10754.11     314.1015      612.895    0.105   0
+         4    192.916    872.421 200.8687463 +36.1408890     3.82 0.0004129169 -11.1274 -11.0729   0.0132     26862.98     326.6794     579.6443    0.038   0
+         5     62.840    759.642 200.8864068 +36.1526632     4.06 0.0004380012  -8.8097 -10.4237   0.0233     14773.83     317.3014     585.0251    0.786   0
+         6    356.585    791.818 200.8469729 +36.1500293     4.53 0.0004888271 -11.2378 -11.3279   0.0106      33974.2     331.9577     612.3391    0.031   0

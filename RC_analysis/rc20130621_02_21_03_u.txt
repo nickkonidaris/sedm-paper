@@ -1,0 +1,19 @@
+#   1 NUMBER                 Running object number                                     
+#   2 X_IMAGE                Object position along x                                    [pixel]
+#   3 Y_IMAGE                Object position along y                                    [pixel]
+#   4 ALPHA_J2000            Right ascension of barycenter (J2000)                      [deg]
+#   5 DELTA_J2000            Declination of barycenter (J2000)                          [deg]
+#   6 FWHM_IMAGE             FWHM assuming a gaussian core                              [pixel]
+#   7 FWHM_WORLD             FWHM assuming a gaussian core                              [deg]
+#   8 MAG_BEST               Best of MAG_AUTO and MAG_ISOCOR                            [mag]
+#   9 MAG_APER               Fixed aperture magnitude vector                            [mag]
+#  10 MAGERR_APER            RMS error vector for fixed aperture mag.                   [mag]
+#  11 FLUX_APER              Flux vector within fixed circular aperture(s)              [count]
+#  12 FLUXERR_APER           RMS error vector for aperture flux(es)                     [count]
+#  13 BACKGROUND             Background at centroid position                            [count]
+#  14 ELLIPTICITY            1 - B_IMAGE/A_IMAGE                                       
+#  15 FLAGS                  Extraction flags                                          
+         1    938.935    405.461 237.8764040 +33.0099013     6.15 0.0006595257 -12.4677 -12.4983   0.0041      99847.7     374.1189     583.7549    0.154   0
+         2    165.986    803.002 237.9751270 +32.9654566     1.15  0.000123783  -6.2801  -8.8191   0.0976     3370.115     302.7286     605.0255    0.029   0
+         3    474.833    923.084 237.9352785 +32.9534712     1.39 0.0001491427  -7.1486  99.0000  99.0000    -4240.185     268.6038     547.7635    0.166  16
+         4   1025.820    627.270 237.8649279 +32.9864648     1.23  0.000132109  -7.9516  -8.3271   0.1242     2142.029     245.0071     585.1269    0.114  16
