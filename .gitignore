@@ -1,3 +1,5 @@
 *.log
 *.axus
 *.gz
+*.aux
+.DS_Store
