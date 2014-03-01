@@ -1,5 +1,5 @@
 
-\documentclass[preprint2]{aastex}
+\documentclass[preprint]{aastex}
 
 
 \newcommand{\vdag}{(v)^\dagger}
@@ -14,7 +14,7 @@
 \title{The design and construction of the SED Machine}
 
 
-\author{Nicholas P Konidaris}
+\author{Nicholas P. Konidaris}
 \affil{Caltech}
 
 \author{Sagi Ben-Ami}
@@ -27,7 +27,7 @@
 
 
 \begin{abstract}
-Every year the current group of imaging surveys discovers several thousand candidate supernovae per year. The Spectral Energy Distribution (SED) Machine is a spectrograph designed to classify thousands of transients per year by taking spectra on Palomar's robotic 60-inch telescope. In this paper we present the design and construction of the SED Machine; a spectrograph designed from the bottom up to classify supernovae efficiently on telescopes of apertures up to 3 meter. The SED machine is a ugri imager with a 12x12 minute field and a spectrograph with resolution ($R=\lambda/\Delta\lambda$) 100 covering the wavelength range from 370 nm - 920 nm, fed by a front-end integral-field unit with a 25$\times$25 arcsecond field of view.
+Every year the current group of imaging surveys discovers several thousand candidate supernovae per year. The Spectral Energy Distribution (SED) Machine is a spectrograph designed to classify thousands of transients per year by taking spectra on Palomar's robotic 60-inch telescope. In this paper we present the design and construction of the SED Machine; a spectrograph designed from the bottom up to classify supernovae efficiently on telescopes of apertures up to 3 meter. The SED machine is a ugri imager with a 12x12 minute field and a spectrograph with resolution ($R=\lambda/\Delta\lambda$) 100 covering the wavelength range from 370 nm - 920 nm, fed by a front-end integral-field unit with a 25$\times$25 arcsecond field of view. 
 \end{abstract}
 
 \keywords{}
@@ -47,18 +47,32 @@ technical requirements.
 
 \section{SED Machine's Metric}
 
-The SED Machine is designed to  classifications per unit time. 
+% Section Status: Start here next, copy edit.
 
-The main functional specifications of the spectrograph are as follows. Spectral resolution,  field of view, and wavelength range drive the cost and complexity of spectrographs. 
+The SED Machine is designed to maximize spectral classifications per unit time. As such, it was designed as a system to 
+\begin{enumerate}
+\item Operate at the minimum spectral resolution necessary to classify 90\% of supernova over the broadest possible wavelength range.
+\item Have a high slit-to-detector efficiency. 
+\item Have no mode switching overhead, and few to no moving parts.
+\item Require few calibration spectra and images by keeping instrument flexure small (so that few arclamp spectra are needed). 
+\item Limit the amount of standard spectra taken by using an atmospheric throughput monitoring camera to measure differential atmospheric absorption.
+\item Reduce the amount of time spent acquiring the target with a large field of view integral field unit. Ideally, acquisition is a simple one-shot.
+\end{enumerate}
 
-For the SED Machine whose goal is to identify supernovae spectral resolution 100 was identified as a sufficient resolution for such typing (and is demonstrated in spectra shown in the appendix). Such resolution is much lower than what is typical considered low resolution. Working at $R\sim100$ allowed us to use a prism which afforded a factor of between 10\% and 50\% more throughput than a diffraction grating.
+The above scientific requirements flowed down to a number of technical requirements. 
+
+First, based on a number of computer simulations, we decided to adopt a spectral resolution R=$\lambda/\Delta\lambda\sim100$. The details of these simulations are beyond the scope of this paper; however, supernova emission and absorption features are often strong and moving at tens of km s$^{-1}$. 
+
+At this very low spectral resolution $R\sim100$, and given the desire to maximize wavelength coverage and throughput, the team decided to use a prism as the dispersing element. Thus, we could cover over a factor of two in wavelength range without cross dispersion. Furthermore, diffraction gratings have an efficiency functions that is peaked and falls by more than a factor of two at the edge of the order. Prisms, on the other hand, have high and constant throughput. We designed a novel three-element  prism to keep the resolution approximately constant from 370 nm to 920 nm. The spectrograph's low resolution leads to a beam size of 25.0-mm. Thus the instrument is compact and designed to be stiff.
+
+To minimize the number of atmospheric standard spectra taken, we have designed an atmospheric-monitoring camera called the rainbow camera (RC). The term rainbow comes from the simultaneous imaging that takes place over four bands. The partitioning of wavelengths is done with a filter array placed near focus. 
+
+The RC images field stars in four bands around the spectrograph while the spectrograph is integrating. The photometry from the field stars is then compared to that in the Sloan Digital Sky Survey CITEME and AAVSO CITEME and FIXME. The magnitude difference is computed in the SDSS u, g, r, and i bands. Even if the  catalogs do not exist in that part of the sky, the observer can go back on a photometric night and perform their own measurements of the field to back out the extinction. A low-order polynomial is adopted as the correction curve for the spectroscopic observation. Through extensive Monte-Carlo simulations we found that the u-band is the most essential filter for determining atmospheric extinction. Thus, the RC was designed to operate from 320 nm  to 1 $\mu$m.
+
+For the detector, we only considered commercially available fully packaged options. The review consisted of estimating delivered signal-to-noise given read noise, dark current, format size, availability, and cost. We settled on the E2V 42-40 CCD with 13.5 $\mu$m pixels packaged by Princeton Instruments\footnote{We independently measured the quantum efficiency of the Princeton Instruments eXcelon back-illuminated detector. Based on our NIST-traceable photodiode (Thorlabs S120VC s.n.12081057 + PM100USB), we found that the eXcelon QE is about 5\% to 10\% less than advertised. We also note that we used a single photodiode  for the measurement, and the miscalibration between any two photodiodes may be at the 5\% level.} for both the spectrograph and imager. In order to well sample the typical Palomar seeing, we decided on a focal ratio of f/4.9 where typical seeing is sampled with a FWHM of 3.2 pixels. 
 
 The integral-field unit must sample the typical 1.2-arcsecond seeing of the Palomar 60-inch telescope with a pitch of XXXXX. Given the typical pointing of 8 arcsecond RMS a 25-arcsecond full field seemed a comfortable size to ensure that targets usually end up in the IFU. A further advantage of this large field is that is is possible now to simultaneously take spectra of the host galaxy, as well as the transient source.
-
-To maximize the ability to type, the wavelength range should cover from the emission of [O II] (370 nm) to typically redshifted Ca II (920 nm). At the same time, the available packaged commercial charge-coupled detectors (CCD) had acceptable throughput over the 370-920 nm range. This wavelength range is also comfortable for state-of-the-art anti-reflection coatings for lenses that work well over a factor of 2.4$\times$. 
-
-Throughput is of high concern for any instrument. Aside from the above considerations, we deemed that throughput over the broad wavelength range should be greater than what is typical of modern single slit spectrographs ($>35\%$). 
-
+  
 \section{Optical design, construction, and assembly}
 
 The SED Machine's primary purpose is to deliver spectrophotometrically accurate and precise $R\sim100$ spectra of unresolved objects. The SED Machine has an integral field unit with a roughly 30-arcsecond field of view. In order to achieve excellent spectrophotometry the SED Machine uses an imager to monitor the atmospheric throughput. The partition of the focal plane is seen in the raw image shown in Figure~\ref{fig:focal_plane}.
@@ -207,6 +221,8 @@ A written procedure describing almost one-hundred steps for bonding the doublets
 
 The optical design called for the thickness of the Sylgard-184 bond to be 125 $\mu$. Bond thickness was controlled by using Kapton-tape shims. The shims were measured with a dial indicator on a pink granite bench. Both substrates were cleaned minutes before application of Sylgard-184 with red ``first contact'' cleaning solution. Pipettes were used to control the amount of Sylgard delivered to the lens. The concave lens was placed face up to collect the correct volume of Sylgard-184, while a small dab of Sylgard-184 was placed in the center of the convex lens to facilitate bonding as described in \cite{bessell2011}. The element was left to cure over five days at 13$^\circ$ C as suggested in the Dow Corning application note.
 
+The camera 1/2 doublet was bonded backwards with Sylgard-184. Based on Table 1 in CITME, we discovered that soaking the doublet in toluene caused the Sylgard bondline to expand by a factor of about 1.3. The expansion of the bond delaminated the two lenses without any damage.
+
 \subsection{Lens potting}
 
 Most of the SED Machine lenses were potted into aluminum cells which in turned were stacked as ``poker chips''. In this section we describe this process. The underlying philosophy of our approach was to rely on the manufacturing of the optics and their mounts and have no adjustments built in (except for focus). 
@@ -248,6 +264,24 @@ A variety of lens-level optical tests were performed using standard techniques d
 \section{Comparison against predictions}
 
 \section{Budget}
+
+\section{Acknowledgements}
+
+Our collaborators in Taiwan who developed the data reduction pipeline, Prof. Wing Ip, Prof. Choong Ngeow, Dr. Andreas Ritter, and Mr. Alex Ruddy also provided some feedback to the team for hardware.
+
+The PDR review team made a number of valuable suggestions.
+
+Jack T.C. Davis, now at Spacex, served as the main mechanical designer.
+
+Paul Gardener, the Palomar Chief Engineer, provided a wide range of mechanical design support.
+
+Ernest Croner served as an electronics technician for the shutters and LED projection system.
+
+Marin Anderson helped bond elements together.
+
+Donal O'Sullivan
+
+Pavan 
 
 \begin{thebibliography}{}
 
