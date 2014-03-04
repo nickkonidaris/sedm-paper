@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  1 MAR 2014 00:42
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  4 MAR 2014 08:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -216,7 +216,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
 {/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (11.52847pt too wide) in paragraph at lines 66--67
+Overfull \hbox (11.52847pt too wide) in paragraph at lines 68--69
 []\OT1/cmr/m/n/10.95 To min-i-mize the num-ber of at-mo-spheric stan-dard spec-
 tra taken, we have de-signed an atmospheric-
  []
@@ -226,7 +226,7 @@ File: figures/rc_2013_06_23_01_46_21.pdf Graphic file (type pdf)
 
 <use figures/rc_2013_06_23_01_46_21.pdf>
 Package pdftex.def Info: figures/rc_2013_06_23_01_46_21.pdf used on input line 
-80.
+82.
 (pdftex.def)             Requested size: 180.67499pt x 195.03542pt.
 
 
@@ -234,17 +234,17 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [3] [4 <./figures/rc_2013_06_23_01_46_21.pdf>]
 
-Package natbib Warning: Citation `osiris' on page 5 undefined on input line 108
+Package natbib Warning: Citation `osiris' on page 5 undefined on input line 110
 .
 
 
-Package natbib Warning: Citation `p1640' on page 5 undefined on input line 108.
+Package natbib Warning: Citation `p1640' on page 5 undefined on input line 110.
 
 
 <figures/fp.pdf, id=42, 257.39786pt x 181.45541pt>
 File: figures/fp.pdf Graphic file (type pdf)
  <use figures/fp.pdf>
-Package pdftex.def Info: figures/fp.pdf used on input line 112.
+Package pdftex.def Info: figures/fp.pdf used on input line 114.
 (pdftex.def)             Requested size: 180.67499pt x 127.36954pt.
 
 [5 <./figures/fp.pdf>]
@@ -255,7 +255,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 File: figures/run_50n.pdf Graphic file (type pdf)
 
 <use figures/run_50n.pdf>
-Package pdftex.def Info: figures/run_50n.pdf used on input line 161.
+Package pdftex.def Info: figures/run_50n.pdf used on input line 163.
 (pdftex.def)             Requested size: 180.67499pt x 70.50542pt.
 
 
@@ -266,23 +266,28 @@ File: figures/hg_2013_06_22_16_13_20.pdf Graphic file (type pdf)
 
 <use figures/hg_2013_06_22_16_13_20.pdf>
 Package pdftex.def Info: figures/hg_2013_06_22_16_13_20.pdf used on input line 
-183.
+185.
 (pdftex.def)             Requested size: 216.81pt x 115.01746pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [8 <./figures/run_50n.pdf>] [9 <./figures/hg_2013_06_22_16_13_20.pdf>]
-Overfull \hbox (2.79779pt too wide) in paragraph at lines 214--215
+Overfull \hbox (2.79779pt too wide) in paragraph at lines 216--217
 []\OT1/cmr/m/n/10.95 Three of these are bonded to-gether us-ing a room-temperat
 ure vul-can-iz-ing (RTV) epoxy Sylgard-
  []
 
-[10] [11] <figures/cam_12.jpg, id=167, 1272.755pt x 1284.8pt>
+[10]
+
+Package natbib Warning: Citation `Lee:2003uk' on page 11 undefined on input lin
+e 224.
+
+[11] <figures/cam_12.jpg, id=167, 1272.755pt x 1284.8pt>
 File: figures/cam_12.jpg Graphic file (type jpg)
 
 <use figures/cam_12.jpg>
-Package pdftex.def Info: figures/cam_12.jpg used on input line 240.
+Package pdftex.def Info: figures/cam_12.jpg used on input line 242.
 (pdftex.def)             Requested size: 180.67499pt x 182.38014pt.
  [12 <./figures/cam_12.jpg>]
 Missing character: There is no Ð in font cmr10!
@@ -300,13 +305,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 2768 strings out of 493315
- 36355 string characters out of 6137904
- 97934 words of memory out of 5000000
- 6180 multiletter control sequences out of 15000+600000
+ 2769 strings out of 493315
+ 36367 string characters out of 6137904
+ 98934 words of memory out of 5000000
+ 6181 multiletter control sequences out of 15000+600000
  12267 words of font info for 50 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 38i,8n,28p,1056b,245s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,8n,28p,1073b,245s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
@@ -324,7 +329,7 @@ e/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive
 /2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2
 013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/201
 3/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on sedm_konidaris.pdf (14 pages, 4782718 bytes).
+Output written on sedm_konidaris.pdf (14 pages, 4783266 bytes).
 PDF statistics:
  233 PDF objects out of 1000 (max. 8388607)
  161 compressed objects within 2 object streams
