@@ -27,25 +27,25 @@
 
 
 \begin{abstract}
-Every year the current group of imaging surveys discovers several thousand candidate supernovae per year. The Spectral Energy Distribution (SED) Machine is a spectrograph designed to classify thousands of transients per year by taking spectra on Palomar's robotic 60-inch telescope. In this paper we present the design and construction of the SED Machine; a spectrograph designed from the bottom up to classify supernovae efficiently on telescopes of apertures up to 3 meter. The SED machine is a ugri imager with a 12x12 minute field and a spectrograph with resolution ($R=\lambda/\Delta\lambda$) 100 covering the wavelength range from 370 nm - 920 nm, fed by a front-end integral-field unit with a 25$\times$25 arcsecond field of view. 
+The Spectral Energy Distribution (SED) Machine, for the Palomar 60-inch telescope, is a back-focus mount integral-field spectrograph design to take thousands of classification-quality spectra per on robotic telescopes less than 3-m in diameter. To date, we have been able to classify sources down to $r\sim20$ utilizing the spectrographs 0.36 $\mu m$ to 1.0 $\mu m$ wavelength range. In this paper we present the design and construction of the SED Machine for the robotic Palomar 60-inch telescope (P60). On P60 SED machine is a ugri imager with a 12x12 minute field and a spectrograph with resolution ($R=\lambda/\Delta\lambda$) 100 covering the wavelength range from 370 nm - 1,000 nm, fed by an integral-field unit with a 25$\times$25 arcsecond field of view. 
 \end{abstract}
 
 \keywords{}
 \section{Introduction}
 
-Transient discovery rate is high.
+In 2009, at the beginning of the Palomar Transient Factory (PTF) survey, we recognized that a large amount of observing time from our ``big glass'' (the 200-inch Hale, Gemini 8-m, and the W.M. Keck 1 and 2 telescopes) was allocated to classifying sources. By using big glass we were able to achieve the required signal to noises within minutes, but the classification cadence was limited by the time-allocation process to a night every few weeks. For a survey like PTF with a few-day cadence, our followup cadence and discovery cadence were mismatched. 
 
-Transient classification rate is low.
+During a planning retreat, the authors and Shri Kulkarni recognized that by allocating a substantial amount of time on a smaller telescope with an efficient spectrograph, we could meet the discovery cadence. Palomar observatory's 60-inch telescope was the prime candidate for such a classification spectrograph.
 
-Current generation of spectrographs is:
-overkill
-long-slit, this requires at least one minute per exposure. For a night with twenty targets, this amounts to a 5\% loss in classification efficiency.
+At the same time, simply scaling the aperture areas of the 10-m telescope to the 60-inch, the 60-inch has at least 40x less light-collecting area for the point sources we care about. Given that spectrographs on large telescopes operate near the best efficiency afforded by current coating, grating, and detector technology, the main knob we could turn to improve classification efficiency was designing a spectrograph with {\em the minimum useful} spectral resolution. In addition, to maximize classification efficiency, we operate over the broadest wavelength range supported by our detectors, use an integral field unit to minimize acquisition time, and employee a second calibration camera.
 
-The SED Machine is designed to achieve:
-science requirements
-technical requirements.
+The SED Machine was funded by the United States National Science Foundation\footnote{NSF Number Here} in the summer of 2010, two years later we achieved first light. At first light, we discovered that the throughput of SED Machine in the blue is about half of what we expected, and that our data reduction pipeline would not deliver correct spectra for objects fainter than about $r\sim14$. For the past several years, we worked on improving the data reduction pipeline. The new pipeline is able to extract spectra down to $r\sim20.5$ \citep[see forthcoming work][]{neil2016}.
+
+This paper describes the design and construction of SED Machine's hardware. We have organized the paper as follows, in \S\ref{sec:metric} the optimization strategy of SED Machine is discussed, based on the optimization strategy we describe the as-designed hardware in \S\ref{sec:design}
+
 
 \section{SED Machine's Metric}
+\label{sec:metric}
 
 % Section Status: Start here next, copy edit.
 
@@ -63,13 +63,13 @@ The above scientific requirements flowed down to a number of technical requireme
 
 First, based on a number of computer simulations, we decided to adopt a spectral resolution R=$\lambda/\Delta\lambda\sim100$. The details of these simulations are beyond the scope of this paper; however, supernova emission and absorption features are often strong and moving at tens of km s$^{-1}$. 
 
-At this very low spectral resolution $R\sim100$, and given the desire to maximize wavelength coverage and throughput, the team decided to use a prism as the dispersing element. Thus, we could cover over a factor of two in wavelength range without cross dispersion. Furthermore, diffraction gratings have an efficiency functions that is peaked and falls by more than a factor of two at the edge of the order. Prisms, on the other hand, have high and constant throughput. We designed a novel three-element  prism to keep the resolution approximately constant from 370 nm to 920 nm. The spectrograph's low resolution leads to a beam size of 25.0-mm. Thus the instrument is compact and designed to be stiff.
+At this very low spectral resolution $R\sim100$, and given the desire to maximize wavelength coverage and throughput, the team decided to use a prism as the dispersing element. Thus, we could cover over a factor of two in wavelength range without cross dispersion. Furthermore, diffraction gratings have an efficiency functions that is peaked and falls by more than a factor of two at the edge of the order. Prisms, on the other hand, have high and constant throughput. We designed a novel three-element prism to keep the resolution approximately constant from 370 nm to 920 nm. The spectrograph's low resolution leads to a beam size of 25.0-mm. Thus the instrument is compact and designed to be stiff.
 
 To minimize the number of atmospheric standard spectra taken, we have designed an atmospheric-monitoring camera called the rainbow camera (RC). The term rainbow comes from the simultaneous imaging that takes place over four bands. The partitioning of wavelengths is done with a filter array placed near focus. 
 
 The RC images field stars in four bands around the spectrograph while the spectrograph is integrating. The photometry from the field stars is then compared to that in the Sloan Digital Sky Survey CITEME and AAVSO CITEME and FIXME. The magnitude difference is computed in the SDSS u, g, r, and i bands. Even if the  catalogs do not exist in that part of the sky, the observer can go back on a photometric night and perform their own measurements of the field to back out the extinction. A low-order polynomial is adopted as the correction curve for the spectroscopic observation. Through extensive Monte-Carlo simulations we found that the u-band is the most essential filter for determining atmospheric extinction. Thus, the RC was designed to operate from 320 nm  to 1 $\mu$m.
 
-For the detector, we only considered commercially available fully packaged options. The review consisted of estimating delivered signal-to-noise given read noise, dark current, format size, availability, and cost. We settled on the E2V 42-40 CCD with 13.5 $\mu$m pixels packaged by Princeton Instruments\footnote{We independently measured the quantum efficiency of the Princeton Instruments eXcelon back-illuminated detector. Based on our NIST-traceable photodiode (Thorlabs S120VC s.n.12081057 + PM100USB), we found that the eXcelon QE is about 5\% to 10\% less than advertised; implying it provides little to no improvement over standard and less expensive devices. We also note that we could be wrong. We used a single photodiode (s.n. 12081057) for the measurement, and that the differences between any two photodiodes may be at the 5\% level.} for both the spectrograph and imager. In order to well sample the typical Palomar seeing, we decided on a focal ratio of f/4.9 where typical seeing is sampled with a FWHM of 3.2 pixels. 
+For the detector, we only considered commercially available fully packaged options. We tabulate delivered signal-to-noise given read noise, dark current, format size, availability, and cost. We settled on the E2V 42-40 CCD with 13.5 $\mu$m pixels packaged by Princeton Instruments\footnote{We independently measured the quantum efficiency of the Princeton Instruments eXcelon back-illuminated detector. Based on our NIST-traceable photodiode (Thorlabs S120VC s.n.12081057 + PM100USB), we found that the eXcelon QE is about 5\% to 10\% less than advertised; implying it provides little to no improvement over standard and less expensive devices. We also note that we could be wrong. We used a single photodiode (s.n. 12081057) for the measurement, and that the differences between any two photodiodes may be at the 5\% level.} for both the spectrograph and imager. In order to well sample the typical Palomar seeing, we decided on a focal ratio of f/4.9 where typical seeing is sampled with a FWHM of 3.2 pixels. 
 
 The integral-field unit must sample the typical 1.2-arcsecond seeing of the Palomar 60-inch telescope with a pitch of XXXXX. Given the typical pointing of 8 arcsecond RMS a 25-arcsecond full field seemed a comfortable size to ensure that targets usually end up in the IFU. A further advantage of this large field is that is is possible now to simultaneously take spectra of the host galaxy, as well as the transient source.
   
@@ -79,8 +79,10 @@ The SED Machine's primary purpose is to deliver spectrophotometrically accurate 
 
 \begin{figure}[h] %  figure placement: here, top, bottom, or page
    \centering
-   \includegraphics[width=2.5in]{figures/rc_2013_06_23_01_46_21.pdf} 
-   \caption{The SED Machine has a ``rainbow camera'' that takes simultaneous four-band images; and a spectrograph which accesses the field in the 30x30 arc second box. This image was taken at $\alpha$18h47m59 and $\delta$+20:16:37. The large white circle is 9 arcminute in diameter. The plate scale is 0.394"/pixel yield a 13.5 by 13.5 arcminute field of view.  From upper left working clockwise the field is g', u', r', and i'. In a 60-s exposure during full moon the u band sky background is exactly 5.0 times more than the read noise.  }
+      \includegraphics[width=2.in]{figures/fields.pdf} 
+
+   \includegraphics[width=2.in]{figures/rc_2013_06_23_01_46_21.pdf} 
+   \caption{The SED Machine has a ``rainbow camera'' that takes simultaneous four-band images; and a spectrograph which accesses the field in the 30x30 arc second box. This image was taken at $\alpha$18h47m59 and $\delta$+20:16:37. The large white circle is 9 arcminute in diameter. The plate scale is 0.394"/pixel yield a 13.5 by 13.5 arcminute field of view.  From upper left working clockwise the field is g', u', r', and i'. In a 60-s exposure during full moon the u band sky background is  5.0 times larger than the read noise.  }
    \label{fig:focal_plane}
 \end{figure}
 
@@ -93,7 +95,7 @@ The Palomar 60-inch (P60) telescope delivers a focal plan that sits 125-mm behin
 
 In order to split the spectrograph field, a 5-mm right-angle prism operating in total reflection reflects a 78x78 arcsecond field parallel to the optical breadboard. A 10-mm-diameter expander doublet reimages the telescope focal plane onto a lenslet array through a field lens. The doublet sits on a focus stage that ensures the spectrograph and rainbow-camera are confocal. The lenslet array, through the expander system, is focused on the telescope pupil and delivers pupil images. The system described in this paragraph is known as the front end.
 
-A collimator, prism, and camera follows the front end and focuses the spectra onto a Princeton Instruments PIXIS eXcelon detector. The camera sits on a focus stage that allows spectrograph focus to be adjusted.
+A collimator, prism, and camera follows the front end and focuses the spectra onto a Princeton Instruments PIXIS eXcelon detector. The camera sits on a flexure that is pushed with a linear Newport stage, the stage allows spectrograph focus to be adjusted.
 
 The imager is forced to sit behind telescope focus in order to accommodate the spectrograph. Thus the imager has to to reimage the telescope focal plane onto a separate Princeton PIXIS detector. In order to sample the seeing properly, the camera demagnifies the telescope focal plane by about a factor of two. 
 
@@ -290,6 +292,8 @@ Pavan
 \bibitem[Bacon et al.(2001)]{bacon2001} Bacon, R., Copin, Y., Monnet, G., Miller, B. W., Allington-Smith, J. R., Bureau, M., et al. (2001). The SAURON project - I. The panoramic integral-field spectrograph. Monthly Notices of the Royal Astronomical Society, 326(1), 23Ð35. doi:10.1046/j.1365-8711.2001.04612.x
 
 \bibitem[Bessell et al.(2011)]{bessell2011} Bessell, M., Bloxham, G., Schmidt, B., and Keller, S. 2011. SkyMapper Filter Set: Design and Fabrication of Large Scale Optical Filters. arXiv.org.
+
+\bibitem[Neil et al.(2016)]{neil2016} Neil, D., Konidaris, N., Barlow, T., etc.... SED Machine Data Reduction Pipeline. {\em to be submitted}.
 
 \bibitem[Sugai et al.(2010)]{sugai2010} Sugai, H., Hattori, T., Kawai, A., Ozaki, S., Hayashi, T., Ishigaki, T., et al. (2010). The Kyoto Tridimensional Spectrograph II on Subaru and the University of Hawaii 88Êin Telescopes. Publications of the Astronomical Society of the Pacific, 122(887), 103Ð118. doi:10.1086/650397
 

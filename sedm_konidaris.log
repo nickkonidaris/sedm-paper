@@ -1,20 +1,20 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  4 MAR 2014 08:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  26 JAN 2016 06:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
 **sedm_konidaris.tex
 (./sedm_konidaris.tex
-LaTeX2e <2011/06/27>
-Babel <3.9f> and hyphenation patterns for 78 languages loaded.
+LaTeX2e <2015/01/01>
+Babel <3.9l> and hyphenation patterns for 79 languages loaded.
 (./aastex.cls
 Document Class: aastex 2005/06/22 5.2/AAS markup document class
 Class aastex Info: Original \LaTeX2.09 style by Chris Biemesderfer (chris@seago
 at.com). Adapted to \LaTeXe by A. Ogawa (ogawa@teleport.com) on input line 83.
-(/usr/local/texlive/2013/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
-(/usr/local/texlive/2013/texmf-dist/tex/latex/base/size11.clo
-File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
 \c@section=\count80
@@ -28,37 +28,37 @@ File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-(/usr/local/texlive/2013/texmf-dist/tex/latex/base/latexsym.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/latexsym.sty
 Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
 \symlasy=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
-(Font)                  U/lasy/m/n --> U/lasy/b/n on input line 47.
+(Font)                  U/lasy/m/n --> U/lasy/b/n on input line 52.
 )
-(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
 )
-(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/trig.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-(/usr/local/texlive/2013/texmf-dist/tex/latex/latexconfig/graphics.cfg
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/graphics.cfg
 File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
-Package graphics Info: Driver file: pdftex.def on input line 91.
+Package graphics Info: Driver file: pdftex.def on input line 94.
 
-(/usr/local/texlive/2013/texmf-dist/tex/latex/pdftex-def/pdftex.def
+(/usr/local/texlive/2015/texmf-dist/tex/latex/pdftex-def/pdftex.def
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/infwarerr.sty
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count87
@@ -66,10 +66,10 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen103
 \Gin@req@width=\dimen104
 )
-(/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-(/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \@emptytoks=\toks15
 \symAMSa=\mathgroup5
@@ -77,15 +77,15 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
-(/usr/local/texlive/2013/texmf-dist/tex/latex/natbib/natbib.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip43
 \bibsep=\skip44
 LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count88
 )
-(/usr/local/texlive/2013/texmf-dist/tex/latex/tools/verbatim.sty
-Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
 \every@verbatim=\toks16
 \verbatim@line=\toks17
 \verbatim@in@stream=\read1
@@ -138,7 +138,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
 LaTeX Font Info:    ... okay on input line 12.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
 LaTeX Font Info:    ... okay on input line 12.
- (/usr/local/texlive/2013/texmf-dist/tex/context/base/supp-pdf.mkii
+ (/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count97
 \scratchdimen=\dimen115
@@ -151,15 +151,15 @@ LaTeX Font Info:    ... okay on input line 12.
 \MPnumerator=\count101
 \makeMPintoPDFobject=\count102
 \everyMPtoPDFconversion=\toks19
-) (/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+) (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifluatex.sty
 Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
-(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifpdf.sty
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
 Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
@@ -168,22 +168,22 @@ Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
-(/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
-(/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/grfext.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/grfext.sty
 Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
 
-(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
 Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
 ))
-(/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 
-(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
 Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
 
-(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/etexcmds.sty
 Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
 Package etexcmds Info: Could not find \expanded.
 (etexcmds)             That can mean that you are not using pdfTeX 1.50 or
@@ -195,101 +195,123 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 452.
 
-(/usr/local/texlive/2013/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 AAS preprint substyle, v5.2 <12 Dec 2003>.
 LaTeX Font Info:    Try loading font information for U+lasy on input line 30.
-(/usr/local/texlive/2013/texmf-dist/tex/latex/base/ulasy.fd
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 LaTeX Font Info:    Try loading font information for U+msa on input line 30.
 
-(/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/umsa.fd
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 30.
 
-(/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/umsb.fd
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
-{/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 44.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 44.
+
+
+LaTeX Warning: Reference `sec:design' on page 2 undefined on input line 44.
+
+[2]
 Overfull \hbox (11.52847pt too wide) in paragraph at lines 68--69
 []\OT1/cmr/m/n/10.95 To min-i-mize the num-ber of at-mo-spheric stan-dard spec-
 tra taken, we have de-signed an atmospheric-
  []
 
-[2] <figures/rc_2013_06_23_01_46_21.pdf, id=17, 543.02875pt x 586.19pt>
+[3] <figures/fields.pdf, id=22, 289.08pt x 339.66899pt>
+File: figures/fields.pdf Graphic file (type pdf)
+
+<use figures/fields.pdf>
+Package pdftex.def Info: figures/fields.pdf used on input line 82.
+(pdftex.def)             Requested size: 144.54pt x 169.83408pt.
+
+<figures/rc_2013_06_23_01_46_21.pdf, id=23, 543.02875pt x 586.19pt>
 File: figures/rc_2013_06_23_01_46_21.pdf Graphic file (type pdf)
 
 <use figures/rc_2013_06_23_01_46_21.pdf>
 Package pdftex.def Info: figures/rc_2013_06_23_01_46_21.pdf used on input line 
-82.
-(pdftex.def)             Requested size: 180.67499pt x 195.03542pt.
+84.
+(pdftex.def)             Requested size: 144.54pt x 156.02834pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[3] [4 <./figures/rc_2013_06_23_01_46_21.pdf>]
+[4]
 
-Package natbib Warning: Citation `osiris' on page 5 undefined on input line 110
+Package natbib Warning: Citation `osiris' on page 5 undefined on input line 112
 .
 
 
-Package natbib Warning: Citation `p1640' on page 5 undefined on input line 110.
+Package natbib Warning: Citation `p1640' on page 5 undefined on input line 112.
 
 
-<figures/fp.pdf, id=42, 257.39786pt x 181.45541pt>
+<figures/fp.pdf, id=27, 257.39786pt x 181.45541pt>
 File: figures/fp.pdf Graphic file (type pdf)
  <use figures/fp.pdf>
-Package pdftex.def Info: figures/fp.pdf used on input line 114.
+Package pdftex.def Info: figures/fp.pdf used on input line 116.
 (pdftex.def)             Requested size: 180.67499pt x 127.36954pt.
 
-[5 <./figures/fp.pdf>]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[6] <figures/run_50n.pdf, id=110, 740.7675pt x 289.08pt>
+[5] [6] <figures/run_50n.pdf, id=40, 740.7675pt x 289.08pt>
 File: figures/run_50n.pdf Graphic file (type pdf)
 
 <use figures/run_50n.pdf>
-Package pdftex.def Info: figures/run_50n.pdf used on input line 163.
+Package pdftex.def Info: figures/run_50n.pdf used on input line 165.
 (pdftex.def)             Requested size: 180.67499pt x 70.50542pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[7] <figures/hg_2013_06_22_16_13_20.pdf, id=115, 543.02875pt x 288.07625pt>
+[7] <figures/hg_2013_06_22_16_13_20.pdf, id=45, 543.02875pt x 288.07625pt>
 File: figures/hg_2013_06_22_16_13_20.pdf Graphic file (type pdf)
 
 <use figures/hg_2013_06_22_16_13_20.pdf>
 Package pdftex.def Info: figures/hg_2013_06_22_16_13_20.pdf used on input line 
-185.
+187.
 (pdftex.def)             Requested size: 216.81pt x 115.01746pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[8 <./figures/run_50n.pdf>] [9 <./figures/hg_2013_06_22_16_13_20.pdf>]
-Overfull \hbox (2.79779pt too wide) in paragraph at lines 216--217
+[8]
+Overfull \hbox (2.79779pt too wide) in paragraph at lines 218--219
 []\OT1/cmr/m/n/10.95 Three of these are bonded to-gether us-ing a room-temperat
 ure vul-can-iz-ing (RTV) epoxy Sylgard-
  []
 
-[10]
+[9]
 
-Package natbib Warning: Citation `Lee:2003uk' on page 11 undefined on input lin
-e 224.
+Package natbib Warning: Citation `Lee:2003uk' on page 10 undefined on input lin
+e 226.
 
-[11] <figures/cam_12.jpg, id=167, 1272.755pt x 1284.8pt>
+[10] <figures/cam_12.jpg, id=55, 1272.755pt x 1284.8pt>
 File: figures/cam_12.jpg Graphic file (type jpg)
 
 <use figures/cam_12.jpg>
-Package pdftex.def Info: figures/cam_12.jpg used on input line 242.
+Package pdftex.def Info: figures/cam_12.jpg used on input line 244.
 (pdftex.def)             Requested size: 180.67499pt x 182.38014pt.
- [12 <./figures/cam_12.jpg>]
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[11]
 Missing character: There is no Ð in font cmr10!
 Missing character: There is no Ê in font cmr10!
 Missing character: There is no Ð in font cmr10!
@@ -297,42 +319,45 @@ Missing character: There is no Ð in font cmr10!
 
 Package natbib Warning: There were undefined citations.
 
-[13] [14
+[12] [13 <./figures/fields.pdf> <./figures/rc_2013_06_23_01_46_21.pdf>]
+[14 <./figures/fp.pdf> <./figures/run_50n.pdf> <./figures/hg_2013_06_22_16_13_2
+0.pdf>] [15 <./figures/cam_12.jpg>] (./sedm_konidaris.aux)
 
-] (./sedm_konidaris.aux)
+LaTeX Warning: There were undefined references.
+
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 2769 strings out of 493315
- 36367 string characters out of 6137904
- 98934 words of memory out of 5000000
- 6181 multiletter control sequences out of 15000+600000
+ 2796 strings out of 493089
+ 36847 string characters out of 6134842
+ 101008 words of memory out of 5000000
+ 6237 multiletter control sequences out of 15000+600000
  12267 words of font info for 50 fonts, out of 8000000 for 9000
- 957 hyphenation exceptions out of 8191
- 38i,8n,28p,1073b,245s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
-></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-</usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
-/usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pf
-b></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
-></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><
-/usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></u
-sr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr
-/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/l
-ocal/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/loc
-al/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/
-texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/tex
-live/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texliv
-e/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive
-/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2
-013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/201
-3/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on sedm_konidaris.pdf (14 pages, 4783266 bytes).
+ 1141 hyphenation exceptions out of 8191
+ 38i,8n,28p,1056b,247s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
+/usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pf
+b></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
+></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><
+/usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></u
+sr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr
+/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/l
+ocal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/loc
+al/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/
+texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/tex
+live/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texliv
+e/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive
+/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2
+015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/201
+5/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on sedm_konidaris.pdf (15 pages, 4801758 bytes).
 PDF statistics:
- 233 PDF objects out of 1000 (max. 8388607)
- 161 compressed objects within 2 object streams
+ 257 PDF objects out of 1000 (max. 8388607)
+ 180 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 
